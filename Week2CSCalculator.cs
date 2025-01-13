@@ -18,7 +18,7 @@ catch (FormatException)
     Environment.Exit(1);
 }
 
-Console.write("Enter the operator");
+Console.write("\nEnter the operator");
 op = Console.ReadLine();
 
 if(op.Replace(" ", "") != "*" || op.Replace(" ", "") != "-" || op.Replace(" ", "") != "+" || op.Replace(" ", "") != "/" 
@@ -27,7 +27,7 @@ if(op.Replace(" ", "") != "*" || op.Replace(" ", "") != "-" || op.Replace(" ", "
   Environment.Exit(1);
 }
 
-Console.write("Enter the second operator");
+Console.write("\nEnter the second operator");
 second_operand = Console.ReadLine();
 try
 {
@@ -39,7 +39,7 @@ catch (FormatException)
     Environment.Exit(1);
 }
 
-Console.WriteLine("The result of the calculation is: ");
+Console.WriteLine("\nThe result of the calculation is: ");
 
 if(op.Replace(" ", "") == "*"){
   result = first_operand_processed * second_operand_processed;
