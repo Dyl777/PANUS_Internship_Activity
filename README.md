@@ -3,7 +3,7 @@ Configuring Visual Studio Enterprise for C# development
 Installing Visual Studio Enterprise
 1. Download the Visual Studio Enterprise installer from the official Microsoft website.
 2. Run the installer and select the "Enterprise" edition.
-3. Choose the components you want to install, including the ".NET desktop development" and "(link unavailable) and web development" workloads.
+3. Choose the components you want to install, including the ".NET desktop development" and "and web development" workloads.
 
 Configuring the Development Environment
 1. Launch Visual Studio Enterprise.
@@ -34,3 +34,5 @@ Solution Explorer and Project Settings
 2. Set the *Solution Explorer* settings, such as showing the file extension and project GUID.
 3. Right-click on the project in Solution Explorer and select *Properties*.
 4. Set the *Project properties*, such as the target framework, output type, and assembly information.
+
+5. Additionally, to install and add 3rd party dependencies like Blazor, you can download the proprietary .DLL file and import it into a project using NuGet package manager (by adding the Dll through the NuGet dependency package manager menu)
