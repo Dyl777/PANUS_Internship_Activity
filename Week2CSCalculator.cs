@@ -1,4 +1,9 @@
 using System;
+
+class Program
+{
+    static void Main()
+    {
 string first_operand;
 string second_operand;
 string op;
@@ -22,10 +27,11 @@ catch (FormatException)
 Console.WriteLine("\nEnter the operator: ");
 op = Console.ReadLine();
 
-if(op.Replace(" ", "") != "*" || op.Replace(" ", "") != "-" || op.Replace(" ", "") != "+" || op.Replace(" ", "") != "/" 
-   || op.Replace(" ", "") != "%"){
- Console.WriteLine("Invalid operator");
-  Environment.Exit(1);
+if (op.Replace(" ", "") != "*" && op.Replace(" ", "") != "-" && op.Replace(" ", "") != "+" && 
+    op.Replace(" ", "") != "/" && op.Replace(" ", "") != "%")
+{
+    Console.WriteLine("Invalid operator");
+    Environment.Exit(1);
 }
 
 Console.WriteLine("\nEnter the second operator: ");
@@ -57,4 +63,7 @@ if(op.Replace(" ", "") == "*"){
 } else if(op.Replace(" ", "") == "/"){
   result = first_operand_processed / second_operand_processed;
    Console.WriteLine(result);
+}
+	
+	}
 }
