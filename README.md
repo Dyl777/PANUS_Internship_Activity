@@ -1,4 +1,4 @@
-Configuring Visual Studio Enterprise for C# development involves several steps. Here's a comprehensive guide to help you set up your environment:
+Configuring Visual Studio Enterprise for C# development 
 
 Installing Visual Studio Enterprise
 1. Download the Visual Studio Enterprise installer from the official Microsoft website.
