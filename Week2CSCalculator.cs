@@ -1,10 +1,11 @@
+using System;
 string first_operand;
 string second_operand;
 string op;
 float result;
 
-float first_operand_processed;
-float second_operand_processed;
+float first_operand_processed = 0;
+float second_operand_processed = 0;
 
 Console.Write("Enter the first operator");
 first_operand = Console.ReadLine();
