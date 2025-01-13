@@ -6,7 +6,7 @@ float result;
 float first_operand_processed;
 float second_operand_processed;
 
-Console.write("Enter the first operator");
+Console.Write("Enter the first operator");
 first_operand = Console.ReadLine();
 try
 {
@@ -18,7 +18,7 @@ catch (FormatException)
     Environment.Exit(1);
 }
 
-Console.write("\nEnter the operator");
+Console.Write("\nEnter the operator");
 op = Console.ReadLine();
 
 if(op.Replace(" ", "") != "*" || op.Replace(" ", "") != "-" || op.Replace(" ", "") != "+" || op.Replace(" ", "") != "/" 
@@ -27,7 +27,7 @@ if(op.Replace(" ", "") != "*" || op.Replace(" ", "") != "-" || op.Replace(" ", "
   Environment.Exit(1);
 }
 
-Console.write("\nEnter the second operator");
+Console.Write("\nEnter the second operator");
 second_operand = Console.ReadLine();
 try
 {
