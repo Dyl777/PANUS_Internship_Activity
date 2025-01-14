@@ -1,3 +1,12 @@
+//Templates for type-specific classes, Object Oriented programming
+//to spilt program logic to Operators and Operations 
+//Instead of if-else handling, using Error handling classes as they automatically stop program
+//execution with a non-zero error code
+//The program displays a list of types available on the console for user to select then checks whether
+//the entered choice is the correct type before selecting, It then takes the
+//respective operands, operator and validates their type, and the resulting value is computed.
+//Critics: it would make more sense I suppose to instead of always using three different types for an operand, we could just 
+//add a member to the operand class and store the operand there and instantiate it in the program
 using System;
 
 class Program
