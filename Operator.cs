@@ -1,4 +1,4 @@
-
+namespace Calculator.OperatorUtilities {
 class Operator
 {
     private static readonly string[] validOperators = { "+", "-", "*", "/", "%" };
@@ -11,4 +11,5 @@ class Operator
             Environment.Exit(1);
         }
     }
+}
 }
