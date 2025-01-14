@@ -1,3 +1,7 @@
+using Calculator.OperationsUtilities;
+
+namespace Calculator.IntOperationsUtilities {
+
 class IntOperations : Operations<int>
 {
     public override int Add(int a, int b) => a + b;
@@ -10,4 +14,6 @@ class IntOperations : Operations<int>
         return a / b;
     }
     public override int Modulo(int a, int b) => a % b;
+}
+
 }
