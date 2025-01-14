@@ -7,7 +7,20 @@
 //respective operands, operator and validates their type, and the resulting value is computed.
 //Critics: it would make more sense I suppose to instead of always using three different types for an operand, we could just 
 //add a member to the operand class and store the operand there and instantiate it in the program
+
+//Abstract Class. An abstract class is a class which must have its methods implemented 
+//by derived classes
+//Static Class. A static class is a class which can't be instantiatied more than once. its like a Simpleton
+//abstract methods. Are generally undefined methods in an abstract class
+
+
 using System;
+using Calculator.OperatorUtilities;
+using Calculator.ValidatorUtilities;
+using Calculator.OperationsUtilities;
+using Calculator.IntOperationsUtilities;
+using Calculator.FloatOperationsUtilities;
+using Calculator.DoubleOperationsUtilities;
 
 class Program
 {
@@ -61,7 +74,7 @@ class Program
     }
 }
 
-class Validator
+/*class Validator
 {
     public static int ValidateChoice()
     {
@@ -176,4 +189,4 @@ class DoubleOperations : Operations<double>
         return a / b;
     }
     public override double Modulo(double a, double b) => a % b;
-}
+}*/
