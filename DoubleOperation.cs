@@ -1,3 +1,7 @@
+using Calculator.OperationsUtilities;
+
+namespace Calculator.DoubleOperationsUtilities {
+
 class DoubleOperations : Operations<double>
 {
     public override double Add(double a, double b) => a + b;
@@ -10,4 +14,6 @@ class DoubleOperations : Operations<double>
         return a / b;
     }
     public override double Modulo(double a, double b) => a % b;
+}
+
 }
