@@ -1,3 +1,5 @@
+
+namespace Calculator.OperationsUtilities {
 abstract class Operations<T>
 {
     public abstract T Add(T a, T b);
@@ -24,3 +26,4 @@ abstract class Operations<T>
     }
 }
 
+}
