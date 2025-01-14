@@ -76,7 +76,7 @@ class Validator
         {
             Console.WriteLine("Invalid input. Please enter 1, 2, or 3.");
             Environment.Exit(1);
-            return 0; // Unreachable
+            return 0; 
         }
     }
 
@@ -91,7 +91,7 @@ class Validator
         {
             Console.WriteLine($"Invalid operand format for type {typeof(T).Name}");
             Environment.Exit(1);
-            return default; // Unreachable
+            return default; 
         }
     }
 }
