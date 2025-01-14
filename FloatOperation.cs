@@ -1,3 +1,7 @@
+using Calculator.OperationsUtilities;
+
+namespace Calculator.FloatOperationsUtilities {
+
 class FloatOperations : Operations<float>
 {
     public override float Add(float a, float b) => a + b;
@@ -10,4 +14,6 @@ class FloatOperations : Operations<float>
         return a / b;
     }
     public override float Modulo(float a, float b) => a % b;
+}
+
 }
