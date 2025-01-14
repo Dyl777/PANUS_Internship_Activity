@@ -1,3 +1,6 @@
+
+namespace Calculator.ValidatorUtilities {
+
 class Validator
 {
     public static int ValidateChoice()
@@ -31,4 +34,6 @@ class Validator
             return default; 
         }
     }
+}
+
 }
